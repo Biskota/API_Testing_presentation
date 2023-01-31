@@ -13,7 +13,7 @@ import static api.utils.Base.testProp;
 public class ApiServices {
 
     public static Response postRequest(String endpoint, Map<String, Object> headers, Object body, Map<String, String> queryParams, Map<String, String> pathParams) {
-        RequestSpecification requestSpecification = RestAssured.given().filter(new SwaggerCoverageRestAssured());
+        RequestSpecification requestSpecification = RestAssured.given();
 
         if (headers != null)
             for (Map.Entry<String, Object> header : headers.entrySet()) {
