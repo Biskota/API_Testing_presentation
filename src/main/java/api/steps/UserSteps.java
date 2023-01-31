@@ -24,7 +24,7 @@ public class UserSteps {
     public Response userCreate(User user) {
         CreateUser createUser = builderUtil.buildCreateUser(user.getId(), user.getUsername(), user.getFirstName(),
                 user.getLastName(), user.getEmail(), user.getPassword(), user.getPhone(), user.getUserStatus());
-        return postRequest(CREATE_USER, null, objectMapper.writeValueAsString(createUser), null, null);
+        return postRequest(CREATE_USER, null, createUser, null, null);
     }
 
     @SneakyThrows

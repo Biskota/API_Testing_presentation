@@ -49,10 +49,10 @@
             <artifactId>json-schema-validator</artifactId>
             <version>4.5.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.github.viclovsky/swagger-coverage-commons -->
+        <!--  https://mvnrepository.com/artifact/com.github.viclovsky/swagger-coverage-rest-assured  -->
         <dependency>
             <groupId>com.github.viclovsky</groupId>
-            <artifactId>swagger-coverage-commons</artifactId>
+            <artifactId>swagger-coverage-rest-assured</artifactId>
             <version>1.5.0</version>
         </dependency>
         <dependency>
@@ -72,12 +72,12 @@
             <artifactId>testng</artifactId>
             <version>7.5</version>
         </dependency>
-                <!--  https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind  -->
-                <dependency>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-databind</artifactId>
-                    <version>2.14.1</version>
-                </dependency>
+        <!--  https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind  -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.1</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -104,11 +104,6 @@
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.viclovsky</groupId>
-            <artifactId>swagger-coverage-rest-assured</artifactId>
-            <version>1.5.0</version>
         </dependency>
     </dependencies>
 </project>
